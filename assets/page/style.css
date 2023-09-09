@@ -1,0 +1,385 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Poppins', sans-serif;
+    /* letter-spacing:1px; */
+
+}
+.bg_main{
+    width: 100%;
+    overflow: hidden;
+}
+p{
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    
+}
+h4 {
+    font-family: 'Pacifico', cursive;
+    color: #fea116;
+
+}
+
+.top_nav {
+    font-size: 13px;
+}
+.navbar{
+    background-color: #103960 !important;
+}
+.bg {
+    /* background-image: url("../image/cloud_bg.png"); */
+    background-image: linear-gradient(rgba(22, 36, 70, 0.924), rgba(24, 38, 74, 0.9)), url("../image/bg-hero.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.bg_content {
+    top: 15%;
+}
+.bg_content  p{
+    font-size: 16px;
+    letter-spacing: 1px;
+  font-weight: 500;}
+
+.hero_pizza {
+    animation: pizza 20s infinite linear;
+}
+
+@keyframes pizza {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icon1::before,
+.icon2::before,
+.icon3::before,
+.icon4::before,
+.icon5::before,
+.icon7::before,
+.icon_rev::before,
+.icon6::before {
+    content: "" !important;
+}
+
+.icon1::after {
+    content: "\f508";
+    color: #fea116;
+}
+
+.icon2::after {
+    content: "\f2e7";
+    color: #fea116;
+}
+
+.icon3::after {
+    content: "\f217";
+    color: #fea116;
+}
+
+.icon4::after {
+    content: "\f590";
+    color: #fea116;
+}
+
+.icon5::after {
+    content: "\f0f4";
+    color: #fea116;
+}
+
+.icon6::after {
+    content: "\f805";
+    color: #fea116;
+}
+
+.icon7::after {
+    content: "\f2e7";
+    color: #fea116;
+}
+.icon_rev::after {
+    content: "\f10d";
+    color: #fea116;
+}
+
+.margin {
+    margin-top: 5rem;
+}
+
+.my_card:hover>.icon1::after,
+.my_card:hover>.icon2::after,
+.my_card:hover>.icon3::after,
+.my_card:hover>.icon4::after {
+    color: white;
+    transition: 0.4s;
+
+}
+
+.my_card {
+    background-color: transparent;
+    transition: background-color 0.3s;
+
+}
+
+.my_card:hover  {
+    background-color: #fea116;
+    color: white;
+    transition: 0.4s;
+}
+
+.my_card:hover p  {
+     
+    color: white;
+    transition: 0.4s;
+}
+
+.icon_img {
+    height: 250px;
+
+}
+
+/* food_menu */
+.food_menu::before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #fea116;
+    display: inline-block;
+    width: 45px;
+    transform: translate(-55px, 13px);
+
+}
+
+.food_menu::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #fea116;
+    display: inline-block;
+    width: 45px;
+    transform: translate(8px, 13px);
+
+}
+
+.tab-pane span {
+    color: #fea116;
+}
+
+.nav-tabs .nav-link.active {
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #fea116 !important;
+}
+
+.fixed_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.506), rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.585)), url("../image/fixedbg.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scroll_content {
+
+    outline: 5px solid rgb(255, 255, 255);
+}
+
+.add_cart a {
+    color: #fea116;
+}
+
+.card_box {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.card_box>img {
+    transition: transform 0.3s;
+    transform: scale(1);
+}
+.a{
+    background-color: red;
+}
+.cards:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.cards:hover .over {
+    z-index: -10;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+.over {
+    position: absolute;
+    top: 0%;
+    height: 0px;
+    width: 100%;
+    background-color: #ffc222;
+    transition: height 0.5s, opacity 0.5s;
+    z-index: -10;
+    opacity: 0.1;
+
+}
+
+.rev {
+    font-size: 13px;
+    color: #fea116;
+}
+.about_card img{
+    width: 50px !important;
+}
+footer a{
+    display: block;
+    color: #01b3a7;
+    margin: 0px 0px 0px 5px;
+ 
+    text-decoration: none;}
+ 
+ footer h6{
+    color: white;
+ }
+    footer{
+        padding: 50px 0px 50px 0px;
+        background-color: #103960;
+        
+    }
+    .bor{
+      border-bottom: 1px solid rgb(183, 255, 245);
+      display: block;  
+      width: 20%;
+    }
+    footer a:hover{
+        color: #a1f1ec;
+    }
+ 
+ .text-info{
+   display: none;
+ }
+
+ /* form */
+ .form{
+    background: #103960;
+ }
+
+ .form .input , .form textarea ,.form select {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(211, 220, 255);
+    background-color: transparent;
+    color: white !important;
+    
+ }
+ .form .input:focus , .form textarea:focus ,.form select:focus {
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(212, 145, 57);
+    background-color: transparent;
+    color: #ffffff;
+
+
+
+ }
+ select option {
+    margin: 40px;
+    background: #18456f;
+    
+    
+  }
+  
+ .form label{
+    color: #ffffff;
+ }
+ /* .form select::placeholder {
+    color: #ffffff !important;
+ } */
+ .submit{
+    width: 100%;
+padding: 10px;
+border: 1px solid #FEA116;
+background-color: #FEA116;
+color: white;
+transition: background-color 0.3s;
+
+ }
+ .submit:hover{
+    background-color: #c78d36;
+
+
+ }
+ .sub a{
+    font-size: 15px;
+ }
+ .list li:hover{
+    color: #fea116;
+ }
+ .pro{
+    color: #ada7a7 !important; 
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  */
+ 
+  
+  
+  /* Preloader */
+  
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+  }
+  
+  #status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
+  }

@@ -1,0 +1,17 @@
+
+/* sm */
+@media screen and (max-width:991px) {
+    .bg{
+        height: 120vh ;
+    }
+   .sm_margin{
+    margin-top: 1rem;
+   }
+    .tab-pane img{
+        width: 20%;
+    }
+    .fixed_bg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.506), rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.585)), url("../image/fixedbg.jpg");
+ 
+    }
+}
